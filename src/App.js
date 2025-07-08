@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Logins from './Components/Student/Logins';
+import LoginT from './Components/Teacher/LoginT';
+import {Routes,Route} from 'react-router-dom'
+import TeacherDashboard from './Components/Teacher/Teacherdash';
+import Auth from './Components/Auth';
+import AuthDisplay from './Components/AuthDisplay';
+import Studentdash from './Components/Student/Studentdash';
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <Auth>
+        <div className="App">
+           <Routes>
+             <Route path='/' element={<Logins/>}/>
+             <Route path='/teacher' element={<LoginT/>}/>
+             <Route path='/teacherdash' element={<AuthDisplay><TeacherDashboard/></AuthDisplay>}/>
+             <Route path='/studentdash' element={<AuthDisplay><Studentdash/></AuthDisplay>}/>
+           </Routes>     
+         </div>
+     </Auth>
+   
   );
 }
 

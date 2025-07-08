@@ -1,0 +1,215 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "t-id": "T001",
+      "name": "Mr. STP",
+      "email": "stp@school.com",
+      "password": "1"
+    },
+    {
+      "id": 2,
+      "t-id": "T002",
+      "name": "Mr. SVR",
+      "email": "svr@school.com",
+      "password": "teach456"
+    },
+    {
+      "id": 3,
+      "t-id": "T003",
+      "name": "Ms. ARJ",
+      "email": "arj@school.com",
+      "password": "teach789"
+    }
+  ],
+  "teachers-schedule": [
+  { "t-id": "T001", "period": 1, "dept": "IT-I", "subject": "Operating Systems" },
+  { "t-id": "T001", "period": 2, "dept": "CSE-I", "subject": "Computer Networks" },
+  { "t-id": "T001", "period": 3, "dept": "ECE-I", "subject": "Microprocessors" },
+  { "t-id": "T001", "period": 4, "dept": "CSE-II", "subject": "Software Engineering" },
+  { "t-id": "T001", "period": 5, "dept": "MECH-I", "subject": "Thermodynamics" },
+  { "t-id": "T001", "period": 6, "dept": "IT-III", "subject": "Cloud Computing" },
+  { "t-id": "T001", "period": 7, "dept": "CIVIL-III", "subject": "Concrete Technology" },
+
+  { "t-id": "T002", "period": 1, "dept": "CSE-I", "subject": "Data Structures" },
+  { "t-id": "T002", "period": 2, "dept": "ECE-I", "subject": "Digital Circuits" },
+  { "t-id": "T002", "period": 3, "dept": "MECH-I", "subject": "Fluid Mechanics" },
+  { "t-id": "T002", "period": 4, "dept": "IT-III", "subject": "Machine Learning" },
+  { "t-id": "T002", "period": 5, "dept": "IT-I", "subject": "Python Programming" },
+  { "t-id": "T002", "period": 6, "dept": "EEE-II", "subject": "Power Systems" },
+  { "t-id": "T002", "period": 7, "dept": "CIVIL-III", "subject": "Structural Design" },
+
+  { "t-id": "T003", "period": 1, "dept": "MECH-I", "subject": "Mechanics" },
+  { "t-id": "T003", "period": 2, "dept": "IT-III", "subject": "Web Technologies" },
+  { "t-id": "T003", "period": 3, "dept": "CSE-II", "subject": "Database Systems" },
+  { "t-id": "T003", "period": 4, "dept": "CSE-I", "subject": "Object Oriented Programming" },
+  { "t-id": "T003", "period": 5, "dept": "EEE-II", "subject": "Control Systems" },
+  { "t-id": "T003", "period": 6, "dept": "ECE-I", "subject": "Analog Communication" },
+  { "t-id": "T003", "period": 7, "dept": "CSE-II", "subject": "Data Mining" }
+  ],
+  
+  "students": [
+    {
+      "id": "S001",
+      "name": "Tarun",
+      "roll": "101",
+      "classId": "IT-I",
+      "email": "tarun@student.com",
+      "password": "1"
+    },
+    {
+      "id": "S002",
+      "name": "Arun",
+      "roll": "102",
+      "classId": "CSE-I",
+      "email": "arun@student.com",
+      "password": "abc456"
+    },
+    {
+      "id": "S003",
+      "name": "Kiran",
+      "roll": "103",
+      "classId": "IT-III",
+      "email": "kiran@student.com",
+      "password": "abc789"
+    },
+    {
+      "id": "S004",
+      "name": "Divya",
+      "roll": "104",
+      "classId": "CSE-II",
+      "email": "divya@student.com",
+      "password": "abc012"
+    },
+    {
+      "id": "S005",
+      "name": "Ravi",
+      "roll": "105",
+      "classId": "ECE-I",
+      "email": "ravi@student.com",
+      "password": "abc345"
+    },
+    {
+      "id": "S006",
+      "name": "Sneha",
+      "roll": "106",
+      "classId": "EEE-II",
+      "email": "sneha@student.com",
+      "password": "abc678"
+    },
+    {
+      "id": "S007",
+      "name": "Vijay",
+      "roll": "107",
+      "classId": "MECH-I",
+      "email": "vijay@student.com",
+      "password": "abc901"
+    },
+    {
+      "id": "S008",
+      "name": "Priya",
+      "roll": "108",
+      "classId": "CIVIL-III",
+      "email": "priya@student.com",
+      "password": "abc234"
+    }
+  ],
+  "class-schedules": [
+    {
+      "classId": "IT-I",
+      "schedule": [
+        { "period": 1, "t-id": "T001", "teacher": "Mr. STP", "subject": "Operating Systems" },
+        { "period": 2, "t-id": "T002", "teacher": "Mr. SVR", "subject": "Python Programming" },
+        { "period": 3, "t-id": "T003", "teacher": "Ms. ARJ", "subject": "Web Technologies" },
+        { "period": 4, "t-id": "T001", "teacher": "Mr. STP", "subject": "Operating Systems" },
+        { "period": 5, "t-id": "T002", "teacher": "Mr. SVR", "subject": "Python Programming" },
+        { "period": 6, "t-id": "T003", "teacher": "Ms. ARJ", "subject": "Web Technologies" },
+        { "period": 7, "t-id": "T001", "teacher": "Mr. STP", "subject": "Operating Systems" }
+      ]
+    },
+    {
+      "classId": "CSE-I",
+      "schedule": [
+        { "period": 1, "t-id": "T002", "teacher": "Mr. SVR", "subject": "Data Structures" },
+        { "period": 2, "t-id": "T001", "teacher": "Mr. STP", "subject": "Computer Networks" },
+        { "period": 3, "t-id": "T003", "teacher": "Ms. ARJ", "subject": "Object Oriented Programming" },
+        { "period": 4, "t-id": "T003", "teacher": "Ms. ARJ", "subject": "Object Oriented Programming" },
+        { "period": 5, "t-id": "T002", "teacher": "Mr. SVR", "subject": "Data Structures" },
+        { "period": 6, "t-id": "T001", "teacher": "Mr. STP", "subject": "Computer Networks" },
+        { "period": 7, "t-id": "T002", "teacher": "Mr. SVR", "subject": "Data Structures" }
+      ]
+    },
+    {
+      "classId": "IT-III",
+      "schedule": [
+        { "period": 1, "t-id": "T003", "teacher": "Ms. ARJ", "subject": "Web Technologies" },
+        { "period": 2, "t-id": "T003", "teacher": "Ms. ARJ", "subject": "Web Technologies" },
+        { "period": 3, "t-id": "T001", "teacher": "Mr. STP", "subject": "Cloud Computing" },
+        { "period": 4, "t-id": "T002", "teacher": "Mr. SVR", "subject": "Machine Learning" },
+        { "period": 5, "t-id": "T001", "teacher": "Mr. STP", "subject": "Cloud Computing" },
+        { "period": 6, "t-id": "T002", "teacher": "Mr. SVR", "subject": "Machine Learning" },
+        { "period": 7, "t-id": "T001", "teacher": "Mr. STP", "subject": "Cloud Computing" }
+      ]
+    },
+    {
+      "classId": "CSE-II",
+      "schedule": [
+        { "period": 1, "t-id": "T001", "teacher": "Mr. STP", "subject": "Software Engineering" },
+        { "period": 2, "t-id": "T001", "teacher": "Mr. STP", "subject": "Software Engineering" },
+        { "period": 3, "t-id": "T002", "teacher": "Mr. SVR", "subject": "Data Structures" },
+        { "period": 4, "t-id": "T002", "teacher": "Mr. SVR", "subject": "Data Structures" },
+        { "period": 5, "t-id": "T003", "teacher": "Ms. ARJ", "subject": "Database Systems" },
+        { "period": 6, "t-id": "T003", "teacher": "Ms. ARJ", "subject": "Database Systems" },
+        { "period": 7, "t-id": "T003", "teacher": "Ms. ARJ", "subject": "Data Mining" }
+      ]
+    },
+    {
+      "classId": "ECE-I",
+      "schedule": [
+        { "period": 1, "t-id": "T002", "teacher": "Mr. SVR", "subject": "Digital Circuits" },
+        { "period": 2, "t-id": "T002", "teacher": "Mr. SVR", "subject": "Digital Circuits" },
+        { "period": 3, "t-id": "T001", "teacher": "Mr. STP", "subject": "Microprocessors" },
+        { "period": 4, "t-id": "T001", "teacher": "Mr. STP", "subject": "Microprocessors" },
+        { "period": 5, "t-id": "T003", "teacher": "Ms. ARJ", "subject": "Analog Communication" },
+        { "period": 6, "t-id": "T003", "teacher": "Ms. ARJ", "subject": "Analog Communication" },
+        { "period": 7, "t-id": "T001", "teacher": "Mr. STP", "subject": "Microprocessors" }
+      ]
+    },
+    {
+      "classId": "EEE-II",
+      "schedule": [
+        { "period": 1, "t-id": "T003", "teacher": "Ms. ARJ", "subject": "Control Systems" },
+        { "period": 2, "t-id": "T003", "teacher": "Ms. ARJ", "subject": "Control Systems" },
+        { "period": 3, "t-id": "T003", "teacher": "Ms. ARJ", "subject": "Control Systems" },
+        { "period": 4, "t-id": "T001", "teacher": "Mr. STP", "subject": "Microprocessors" },
+        { "period": 5, "t-id": "T001", "teacher": "Mr. STP", "subject": "Microprocessors" },
+        { "period": 6, "t-id": "T002", "teacher": "Mr. SVR", "subject": "Power Systems" },
+        { "period": 7, "t-id": "T002", "teacher": "Mr. SVR", "subject": "Power Systems" }
+      ]
+    },
+    {
+      "classId": "MECH-I",
+      "schedule": [
+        { "period": 1, "t-id": "T003", "teacher": "Ms. ARJ", "subject": "Mechanics" },
+        { "period": 2, "t-id": "T002", "teacher": "Mr. SVR", "subject": "Fluid Mechanics" },
+        { "period": 3, "t-id": "T002", "teacher": "Mr. SVR", "subject": "Fluid Mechanics" },
+        { "period": 4, "t-id": "T001", "teacher": "Mr. STP", "subject": "Thermodynamics" },
+        { "period": 5, "t-id": "T001", "teacher": "Mr. STP", "subject": "Thermodynamics" },
+        { "period": 6, "t-id": "T003", "teacher": "Ms. ARJ", "subject": "Mechanics" },
+        { "period": 7, "t-id": "T001", "teacher": "Mr. STP", "subject": "Thermodynamics" }
+      ]
+    },
+    {
+      "classId": "CIVIL-III",
+      "schedule": [
+        { "period": 1, "t-id": "T001", "teacher": "Mr. STP", "subject": "Concrete Technology" },
+        { "period": 2, "t-id": "T001", "teacher": "Mr. STP", "subject": "Concrete Technology" },
+        { "period": 3, "t-id": "T003", "teacher": "Ms. ARJ", "subject": "Data Mining" },
+        { "period": 4, "t-id": "T003", "teacher": "Ms. ARJ", "subject": "Data Mining" },
+        { "period": 5, "t-id": "T003", "teacher": "Ms. ARJ", "subject": "Data Mining" },
+        { "period": 6, "t-id": "T002", "teacher": "Mr. SVR", "subject": "Structural Design" },
+        { "period": 7, "t-id": "T002", "teacher": "Mr. SVR", "subject": "Structural Design" }
+      ]
+    }
+  ]
+}

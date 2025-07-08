@@ -1,0 +1,166 @@
+{
+  "students": [
+    {
+      "id": "S001",
+      "name": "Tarun",
+      "roll": "101",
+      "classId": "IT-I",
+      "email": "tarun@student.com",
+      "password": "1"
+    },
+    {
+      "id": "S002",
+      "name": "Arun",
+      "roll": "102",
+      "classId": "CSE-I",
+      "email": "arun@student.com",
+      "password": "abc456"
+    },
+    {
+      "id": "S003",
+      "name": "Kiran",
+      "roll": "103",
+      "classId": "IT-III",
+      "email": "kiran@student.com",
+      "password": "abc789"
+    },
+    {
+      "id": "S004",
+      "name": "Divya",
+      "roll": "104",
+      "classId": "CSE-II",
+      "email": "divya@student.com",
+      "password": "abc012"
+    },
+    {
+      "id": "S005",
+      "name": "Ravi",
+      "roll": "105",
+      "classId": "ECE-I",
+      "email": "ravi@student.com",
+      "password": "abc345"
+    },
+    {
+      "id": "S006",
+      "name": "Sneha",
+      "roll": "106",
+      "classId": "EEE-II",
+      "email": "sneha@student.com",
+      "password": "abc678"
+    },
+    {
+      "id": "S007",
+      "name": "Vijay",
+      "roll": "107",
+      "classId": "MECH-I",
+      "email": "vijay@student.com",
+      "password": "abc901"
+    },
+    {
+      "id": "S008",
+      "name": "Priya",
+      "roll": "108",
+      "classId": "CIVIL-III",
+      "email": "priya@student.com",
+      "password": "abc234"
+    }
+  ],
+  "class-schedules": [
+    {
+      "classId": "IT-I",
+      "schedule": [
+        { "period": 1, "t-id": "T001", "teacher": "Mr. STP" },
+        { "period": 2, "t-id": "T002", "teacher": "Mr. SVR" },
+        { "period": 3, "t-id": "T003", "teacher": "Ms. ARJ" },
+        { "period": 4, "t-id": "T001", "teacher": "Mr. STP" },
+        { "period": 5, "t-id": "T002", "teacher": "Mr. SVR" },
+        { "period": 6, "t-id": "T003", "teacher": "Ms. ARJ" },
+        { "period": 7, "t-id": "T001", "teacher": "Mr. STP" }
+      ]
+    },
+    {
+      "classId": "CSE-I",
+      "schedule": [
+        { "period": 1, "t-id": "T002", "teacher": "Mr. SVR" },
+        { "period": 2, "t-id": "T001", "teacher": "Mr. STP" },
+        { "period": 3, "t-id": "T003", "teacher": "Ms. ARJ" },
+        { "period": 4, "t-id": "T003", "teacher": "Ms. ARJ" },
+        { "period": 5, "t-id": "T002", "teacher": "Mr. SVR" },
+        { "period": 6, "t-id": "T001", "teacher": "Mr. STP" },
+        { "period": 7, "t-id": "T002", "teacher": "Mr. SVR" }
+      ]
+    },
+    {
+      "classId": "IT-III",
+      "schedule": [
+        { "period": 1, "t-id": "T003", "teacher": "Ms. ARJ" },
+        { "period": 2, "t-id": "T003", "teacher": "Ms. ARJ" },
+        { "period": 3, "t-id": "T001", "teacher": "Mr. STP" },
+        { "period": 4, "t-id": "T002", "teacher": "Mr. SVR" },
+        { "period": 5, "t-id": "T001", "teacher": "Mr. STP" },
+        { "period": 6, "t-id": "T002", "teacher": "Mr. SVR" },
+        { "period": 7, "t-id": "T001", "teacher": "Mr. STP" }
+      ]
+    },
+    {
+      "classId": "CSE-II",
+      "schedule": [
+        { "period": 1, "t-id": "T001", "teacher": "Mr. STP" },
+        { "period": 2, "t-id": "T001", "teacher": "Mr. STP" },
+        { "period": 3, "t-id": "T002", "teacher": "Mr. SVR" },
+        { "period": 4, "t-id": "T002", "teacher": "Mr. SVR" },
+        { "period": 5, "t-id": "T003", "teacher": "Ms. ARJ" },
+        { "period": 6, "t-id": "T003", "teacher": "Ms. ARJ" },
+        { "period": 7, "t-id": "T003", "teacher": "Ms. ARJ" }
+      ]
+    },
+    {
+      "classId": "ECE-I",
+      "schedule": [
+        { "period": 1, "t-id": "T002", "teacher": "Mr. SVR" },
+        { "period": 2, "t-id": "T002", "teacher": "Mr. SVR" },
+        { "period": 3, "t-id": "T001", "teacher": "Mr. STP" },
+        { "period": 4, "t-id": "T001", "teacher": "Mr. STP" },
+        { "period": 5, "t-id": "T003", "teacher": "Ms. ARJ" },
+        { "period": 6, "t-id": "T003", "teacher": "Ms. ARJ" },
+        { "period": 7, "t-id": "T001", "teacher": "Mr. STP" }
+      ]
+    },
+    {
+      "classId": "EEE-II",
+      "schedule": [
+        { "period": 1, "t-id": "T003", "teacher": "Ms. ARJ" },
+        { "period": 2, "t-id": "T003", "teacher": "Ms. ARJ" },
+        { "period": 3, "t-id": "T003", "teacher": "Ms. ARJ" },
+        { "period": 4, "t-id": "T001", "teacher": "Mr. STP" },
+        { "period": 5, "t-id": "T001", "teacher": "Mr. STP" },
+        { "period": 6, "t-id": "T002", "teacher": "Mr. SVR" },
+        { "period": 7, "t-id": "T002", "teacher": "Mr. SVR" }
+      ]
+    },
+    {
+      "classId": "MECH-I",
+      "schedule": [
+        { "period": 1, "t-id": "T003", "teacher": "Ms. ARJ" },
+        { "period": 2, "t-id": "T002", "teacher": "Mr. SVR" },
+        { "period": 3, "t-id": "T002", "teacher": "Mr. SVR" },
+        { "period": 4, "t-id": "T001", "teacher": "Mr. STP" },
+        { "period": 5, "t-id": "T001", "teacher": "Mr. STP" },
+        { "period": 6, "t-id": "T003", "teacher": "Ms. ARJ" },
+        { "period": 7, "t-id": "T001", "teacher": "Mr. STP" }
+      ]
+    },
+    {
+      "classId": "CIVIL-III",
+      "schedule": [
+        { "period": 1, "t-id": "T001", "teacher": "Mr. STP" },
+        { "period": 2, "t-id": "T001", "teacher": "Mr. STP" },
+        { "period": 3, "t-id": "T003", "teacher": "Ms. ARJ" },
+        { "period": 4, "t-id": "T003", "teacher": "Ms. ARJ" },
+        { "period": 5, "t-id": "T003", "teacher": "Ms. ARJ" },
+        { "period": 6, "t-id": "T002", "teacher": "Mr. SVR" },
+        { "period": 7, "t-id": "T002", "teacher": "Mr. SVR" }
+      ]
+    }
+  ]
+}
